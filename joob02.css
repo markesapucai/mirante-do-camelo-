@@ -2,6 +2,7 @@
     font-family: Nunito;
     font-style: normal;
     font-weight: 400; 
+    color: #000000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,23 +17,38 @@ header {
     height: 74px;    
     border-radius: 0px 15px 15px 0px;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.00) 100%);
-    
+    border: 1px solid rgb(20, 240, 0);
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 body {
-    margin: 30px;
+    margin: auto;
     background-image: url(./assests/46491204864_462511e5e1_b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+#ghost {
+    border: 1px solid red;
+    height: 170px; 
+    margin: auto;
+}
+.body_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#ghost2 {
+    border: 1px solid red;
+    width: 100px;
+}
 #caixaTexto {
     border: 1px solid red;
     border-radius: 0px 15px;
     background: rgba(0, 0, 0, 0.20);
-    width: 800px;
-    height: 485px;
-    padding: 35px;
+    width: 800px;    
+    padding: 35px;   
 }
 #mirante {
     border: 1px solid rgb(20, 240, 0);
@@ -75,8 +91,12 @@ p {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 30px;
 }
-#iconeSociais {
+#iconeSociais a {
     border: 3px solid green;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 100px;
 }
