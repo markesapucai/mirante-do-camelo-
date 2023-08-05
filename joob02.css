@@ -2,7 +2,7 @@
     font-family: Nunito;
     font-style: normal;
     font-weight: 400; 
-    color: #000000;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,28 +10,40 @@
 header {
     display: flex;
     justify-content: flex-end;
-    margin: auto;
+    
+}
+nav {
+    display: flex;
+    gap: 90px;
 }
 #head {
-    width: 1111px;
-    height: 74px;    
+    width: 850px;
+       
     border-radius: 0px 15px 15px 0px;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.00) 100%);
-    border: 1px solid rgb(20, 240, 0);
+    padding: 13px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;  
+    flex-direction: row;
+    display: flex;
+      
 }
+#head a {
+    text-decoration: none;  
+    color: black;  
+    font-size: 180%;
+}    
 body {
     margin: auto;
-    background-image: url(./assests/46491204864_462511e5e1_b.jpg);
+    background-image: url(./assests/PANO_20210802_135250\ 2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #ghost {
-    border: 1px solid red;
-    height: 170px; 
+    
+    height: 100px; 
     margin: auto;
 }
 .body_container {
@@ -40,27 +52,27 @@ body {
     margin: auto;
 }
 #ghost2 {
-    border: 1px solid red;
-    width: 100px;
+    
+    width: 150px;
 }
 #caixaTexto {
-    border: 1px solid red;
+    
     border-radius: 0px 15px;
-    background: rgba(0, 0, 0, 0.20);
+    background: rgba(0, 0, 0, 0.253);
     width: 800px;    
     padding: 35px;   
 }
 #mirante {
-    border: 1px solid rgb(20, 240, 0);
+    
     font-size: 60px;
 }
 #do {
-    border: 1px solid rgb(216, 0, 0);
+    
     font-size: 60px;
     display: inline;
 }
 h1 {
-    border: 1px solid rgb(216, 0, 0);
+    
     font-size: 110px;
     display: inline;
 }
@@ -68,7 +80,7 @@ p {
     font-size: 30px; 
 }
 #butoes {
-    border: 1px solid rgb(216, 0, 0);
+    
     display: flex;
     justify-content: space-around;
     
@@ -91,12 +103,17 @@ p {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 30px;
 }
+#ghost3 {
+    height: 100px; 
+    margin: auto;
+}    
 #iconeSociais a {
-    border: 3px solid green;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 35px;
     width: 100px;
+    gap: 8px;
 }
